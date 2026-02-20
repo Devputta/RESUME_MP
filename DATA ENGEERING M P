@@ -1,0 +1,136 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    linkcolor=black,
+    pdfborder={0 0 0},
+    hidelinks
+}
+
+\geometry{margin=1.2cm}
+\setlength{\columnsep}{1cm}
+\titlespacing*{\section}{0pt}{8pt}{6pt}
+
+% Colors
+\definecolor{primary}{HTML}{004F9F}
+
+% Section Title Style
+\titleformat{\section}
+  {\large\bfseries\color{primary}}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+\begin{document}
+\setlength{\parindent}{0pt}
+
+% ---------------- HEADER ----------------
+\begin{center}
+{\Huge \textbf{MAHADEVU M P}}\\[4pt]
+
+India \,|\, +91 9008152398 \,|\,
+\href{mailto:mahadevump657@gmail.com}{mahadevump657@gmail.com} \,|\,
+\href{https://github.com/Devputta}{GitHub} \,|\,
+\href{https://www.linkedin.com/in/mahadevu-m-p-58b51426b}{LinkedIn}
+\end{center}
+
+% ---------------- SUMMARY ----------------
+\section*{SUMMARY}
+Highly motivated Data Engineer skilled in Python, SQL, and modern cloud data platforms. Experienced in designing scalable ETL pipelines, building data models, and transforming raw datasets into analytics-ready structures. Proficient in Snowflake, dbt, and AWS with strong focus on performance optimization, data quality, and production-grade data solutions.
+
+%\begin{multicols}{2}
+
+% ---------------- SKILLS ----------------
+\section*{TECHNICAL SKILLS}
+
+\textbf{Programming:} Python, SQL, Java, C
+
+\textbf{Data Engineering:} AWS, Snowflake, dbt, ETL Pipelines, Data Modeling, Warehousing
+
+\textbf{Analytics:} Power BI, DAX, Power Pivot, Advanced Excel, Data Visualization
+
+\textbf{Tools:} Git, GitHub, Jupyter Notebook, MySQL, MS Office
+
+\textbf{Fundamentals:} Operating Systems, Computer Networks, Machine Learning Basics
+
+%\columnbreak
+
+% ---------------- SOFT SKILLS ----------------
+\section*{PROFESSIONAL SKILLS}
+Analytical thinking • Workflow automation • Problem solving • Agile collaboration • Fast learner • Adaptable to new technologies
+
+%\end{multicols}
+
+% ---------------- EXPERIENCE ----------------
+\section*{EXPERIENCE}
+
+\textbf{Associate Intern – RPA \& Intelligent Automation (Remote)} \hfill Nov 2024 -- Mar 2025\\
+\textit{Employability.life}\\
+Developed automation workflows that improved invoice-processing efficiency and reduced manual effort. Built UiPath bots to extract, classify, and validate structured data. Implemented reusable automation components and validation logic to improve processing accuracy.
+
+\textbf{Tools:} UiPath, Python, SQL
+
+% ---------------- PROJECTS ----------------
+\section*{PROJECTS}
+
+\textbf{Airbnb End-to-End Data Engineering Pipeline} 
+\hfill Jan 2026 -- Feb 2026\\
+Designed and implemented a scalable cloud data pipeline using Snowflake, dbt, AWS S3, and Python following Medallion Architecture (Bronze → Silver → Gold). Developed incremental transformations and SCD Type 2 models for historical tracking. Produced analytics-ready fact tables with automated testing, lineage tracking, and dependency management.\\  
+\textbf{\emph{Tech:} Snowflake, dbt, AWS, Python} ||
+\emph{GitHub:} \href{https://github.com/Devputta/DE_PROJECT---AWS---SNOWFLAKE---DBT}{Project Link}
+
+\vspace{6pt}
+
+\textbf{IoT-Based Automatic Water Monitoring System} \href{https://tarce.co/index.php/tarce/article/view/4261}{\textbf{ – Publication}} 
+\hfill Nov 2024 -- Present\\
+Built a real-time monitoring system using ESP32 sensors and IoT integration. Implemented machine learning models for consumption prediction and anomaly detection.\\
+\textbf{\emph{Tech:} ESP32, IoT Sensors, Python, Machine Learning, Blynk}
+
+\vspace{6pt}
+
+\textbf{Interactive Sales \& Revenue Dashboard (Power BI)} \hfill Sep 2025\\
+Developed dynamic dashboard analyzing revenue trends, customer behavior, and regional performance using DAX measures and interactive visualizations. \\
+\textbf{\emph{Tech:} Power BI, DAX, Excel, Data Modeling}||
+\emph{GitHub:} \href{https://github.com/Devputta/END-TO-END-DASHBOARD}{Project Link}
+
+\vspace{6pt}
+
+\textbf{Insurance Policy Analytics Dashboard (Power BI)} \hfill Aug 2025 -- Sep 2025\\
+Created analytics dashboard tracking policies, claims, and premiums with calculated metrics and interactive filters for business insights.\\
+\textbf{\emph{Tech:} Power BI, DAX, Data Visualization, Analytics}||
+\emph{GitHub:} \href{https://github.com/Devputta/DATAS-With-DaX}{Project Link}
+
+% ---------------- EDUCATION ----------------
+\section*{EDUCATION}
+
+\textbf{Bachelor of Engineering – Information Science}\\
+PES College of Engineering, Mandya \hfill 2022 -- 2025\\
+CGPA: 7.79 / 10
+
+\vspace{6pt}
+
+\textbf{Diploma – Computer Science}\\
+Government Polytechnic College, Ramanagara \hfill 2018 -- 2021\\
+Percentage: 78.99 / 100\%
+
+% ---------------- CERTIFICATIONS ----------------
+\section*{CERTIFICATIONS}
+
+
+
+
+\textbf{Certifications:} NPTEL — Python Programming, Internet of Things (IoT), Cloud Computing • HackerRank — SQL \& Python • Zscaler — Cyber Security Fundamentals • VTU — Data Analytics
+
+
+
+
+\end{document}
